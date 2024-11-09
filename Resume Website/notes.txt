@@ -1,0 +1,5 @@
+Fix how it goes up and down with each slider
+
+Fix the space btwn the profile pic and the slider box
+
+Add slider animation

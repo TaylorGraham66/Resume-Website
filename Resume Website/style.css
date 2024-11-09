@@ -124,3 +124,15 @@ body {
     border: none;
     background-color: transparent;
   }
+
+  .expFix {
+    margin-top: -1vw;
+  }
+
+  .expFixBot {
+    margin-bottom: -.5vw;
+  }
+
+  .abtMe {
+    padding: 1vw;
+  }
