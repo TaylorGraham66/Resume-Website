@@ -51,7 +51,12 @@ body {
   }
   
   .scrollable-content {
-    margin-top: 20vh;
+    margin-top: 15vh;
+    margin-inline: 5%;
+    margin-block: 10%;
+    box-shadow: 2px 2px 4px;
+    border-radius: 20px;
+    padding: 3%;
   }
 
   .profilePic {
@@ -59,11 +64,10 @@ body {
     top: -20%;
     left: 50%;
     transform: translateX(-50%);
-    width: 20vw;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: solid 5px white;
-    z-index: 15;
   }
 
   .centeredTitle {
@@ -82,6 +86,26 @@ body {
     margin-bottom: -15%;
   }
 
-  .centered {
+  .sliders {
+    margin-block: 15px;
     text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
   }
+
+  .sliderHeader {
+    font-size: 150%;
+    text-align: left;
+  }
+
+  .field1, .field2{
+    float: left;
+    width: 37vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 4px;
+    border-radius: 20px;
+  }
+
