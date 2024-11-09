@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" src="script.js">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -27,19 +27,44 @@
         </div>
         <div class="scrollable-content">
           <div class="sliders">
-            <div class="slider1">
+            <button class="scroll-btn" aria-label="Previous food option" onclick="prevSlider()">❮</button>
+            <div class="slider1 active">
                 <div class="sliderHeader">
                     About Me
                 </div>
                 <div class="field1">
-                    <div class="boxContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam praesentium optio sint nobis dignissimos eligendi dicta quibusdam debitis saepe, impedit maiores obcaecati vel eos, aut unde ducimus quae aliquid. Tempore?</div>
+                    <div class="boxContent"></div>
                 </div>
                 <div class="field2">
-                    <div class="boxContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias doloremque totam sunt, inventore nostrum similique harum fugit earum blanditiis nemo odio. Sit nesciunt ab exercitationem natus eos laudantium odit error!</div>
+                    <div class="boxContent"></div>
                 </div>
             </div>
+            <div class="slider1">
+                <div class="sliderHeader">
+                    Experience
+                </div>
+                <div class="field1">
+                    <div class="boxContent"></div>
+                </div>
+                <div class="field2">
+                    <div class="boxContent"></div>
+                </div>
+            </div>
+            <div class="slider1">
+                <div class="sliderHeader">
+                    Education
+                </div>
+                <div class="field1">
+                    <div class="boxContent"></div>
+                </div>
+                <div class="field2">
+                    <div class="boxContent"></div>
+                </div>
+            </div>
+          <button class="scroll-btn" aria-label="Next food option" onclick="nextSlider()">❯</button>
         </div>
     </div>
+
 
 </body>
 </html>

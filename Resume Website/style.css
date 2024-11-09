@@ -94,6 +94,14 @@ body {
     justify-content: center;
   }
 
+  .slider1 {
+    display: none;
+  }
+
+  .slider1.active {
+    display: block;
+  }  
+
   .sliderHeader {
     font-size: 150%;
     text-align: left;
@@ -101,7 +109,7 @@ body {
 
   .field1, .field2{
     float: left;
-    width: 37vw;
+    width: 30vw;
     margin-left: 10px;
     margin-top: 10px;
     padding: 5px;
@@ -109,3 +117,10 @@ body {
     border-radius: 20px;
   }
 
+  .scroll-btn {
+    font-size: 5vh;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+  }
